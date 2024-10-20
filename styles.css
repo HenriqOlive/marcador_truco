@@ -5,25 +5,101 @@
 
 body{
     margin: 0;
-    background-color: rgb(159, 35, 35);
+    background-color: rgb(221, 90, 90);
 }
 
 h1{
-    color: rgb(237, 192, 192);
+    color: rgb(108, 29, 29);
 }
 
 #area-marcador{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 0.2rem solid black;
 }
 
 #placar{
-    border: 0.2rem solid white;
     display: flex;
     justify-content:space-around;
     font-size: 3rem;
-    color: rgb(237, 192, 192);
+    color: rgb(108, 29, 29);
 }
 
+#pontPlay1, #pontPlay2{
+    padding: 0 5%;
+}
+
+#pontPlay1{
+    border: 0.3rem dashed rgb(7, 74, 200);
+}
+
+#pontPlay2{
+    border: 0.3rem dashed rgb(200, 7, 7);
+}
+
+#botoesMarcadores{
+    display: flex;
+    justify-content:space-around;
+}
+
+#marcPlay1, #marcPlay2{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    font-size: 3rem;
+    width: 50%;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+#marcPlay1{
+    background-color: rgb(7, 74, 200);
+    color: white;
+}
+
+#marcPlay2{
+    background-color: rgb(200, 7, 7);
+    color: white;
+}
+
+#area-truco{
+    display: flex;
+    justify-content:space-around;
+}
+
+#trucoPlay1, #trucoPlay2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    align-items: center;
+    font-size: 125%;
+    width: 50%;
+    height: 3rem;
+}
+
+#trucoPlay1{
+    background-color: rgb(200, 7, 7);
+    color: white;
+}
+
+#trucoPlay2{
+    background-color: rgb(7, 74, 200);
+    color: white;
+}
+
+#msg-vitoria{
+    font-size: 3rem;
+    color: rgb(108, 29, 29);
+}
+
+footer{
+    color: rgb(108, 29, 29);
+    margin-top: 5rem;
+}
+
+footer a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
